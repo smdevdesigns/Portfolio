@@ -25,7 +25,7 @@ button {
 }
 .portfolio {
   overflow: hidden;
-  background: #DF601B;
+  background: #FC8D2E;
 }
 .section-wrap,
 .topbar {
@@ -1077,9 +1077,9 @@ button {
   align-items: center;
   justify-content: center;
   gap: 9px;
-  color: #7e6a9e;
+  color: #ccbbe7;
   font:
-    500 10px "DM Mono",
+    500 16px "DM Mono",
     monospace;
   letter-spacing: 1.8px;
 }
