@@ -1,11 +1,11 @@
-import PortfolioImage from "../assets/portfolio.png";
-import News from "../assets/news.png";
-import Weather from "../assets/weather.png";
-import Wolf from "../assets/wolf.png";
-import Vue from "../assets/vue.png";
-import CV from "../assets/cv.png";
-import Stock from "../assets/stock.png";
-import Criver from "../assets/criver.png";
+import portfolio from "../assets/portfolio.png";
+import news from "../assets/news.png";
+import weather from "../assets/weather.png";
+import wolf from "../assets/wolf.png";
+import vue from "../assets/vue.png";
+import cv from "../assets/cv.png";
+import stock from "../assets/stock.png";
+import criver from "../assets/criver.png";
 
 export const projects = [
   {
@@ -14,7 +14,7 @@ export const projects = [
     tags: ["JavaScript", "Web Development"],
     description:
       "Reimagining Hacker News as a news aggregation platform with a focus on user experience and accessibility.",
-    image: News,
+    image: news,
     url: "https://morenews.vercel.app/",
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     tags: ["JavaScript", "Weather API", ".NET"],
     description:
       "A weather dashboard designed to help users explore local weather conditions.",
-    image: Weather,
+    image: weather,
     url: "https://mycityweatherapp.vercel.app/",
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     tags: ["Web Design", "Frontend"],
     description:
       "A modern digital website focused on a polished visual identity and user experience.",
-    image: Wolf,
+    image: wolf,
     url: "https://wolf-digital.vercel.app/",
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
     tags: ["Vue.js", "JavaScript"],
     description:
       "A gift inspiration application designed to make discovering gift ideas easier.",
-    image: Vue,
+    image: vue,
     url: "https://vue-gift-ideas.vercel.app/",
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
     tags: ["JavaScript", "Data"],
     description:
       "A stock-focused application exploring how financial information can be presented through a web interface.",
-    image: Stock,
+    image: stock,
     url: "https://stock-smart-gamma.vercel.app/",
   },
   {
@@ -59,7 +59,7 @@ export const projects = [
     tags: ["React", "Web Design"],
     description:
       "My personal portfolio showcasing my work, development skills, and creative approach to digital experiences.",
-    image: CV,
+    image: cv,
     url: "https://www.smdevdesign.com/",
   },
   {
@@ -68,7 +68,7 @@ export const projects = [
     tags: ["React", "TypeScript", "Next.js", "Application Development"],
     description:
       "Main website for Criver, a company that provides medical and healthcare solutions, showcasing their services and expertise.",
-    image: Criver,
+    image: criver,
     url: "https://criver.com/",
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
     tags: ["React", "TypeScript", "Web Design"],
     description:
       "My personal portfolio website, built with React and TypeScript to showcase my work and skills.",
-    image: PortfolioImage,
+    image: portfolio,
     url: "https://www.smdevdesign.com/",
   },
 ];

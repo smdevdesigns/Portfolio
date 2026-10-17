@@ -85,7 +85,7 @@ function Hero() {
 
           <a
             className="button button-outline"
-            href="/CV1.pdf"
+            href="/cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
