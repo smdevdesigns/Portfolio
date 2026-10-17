@@ -78,6 +78,6 @@ export const projects = [
     description:
       "My personal portfolio website, built with React and TypeScript to showcase my work and skills.",
     image: portfolio,
-    url: "https://www.smdevdesign.com/",
+    url: "https://sophiamcg-portfolio.vercel.app/",
   },
 ];
