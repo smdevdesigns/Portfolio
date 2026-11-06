@@ -6,12 +6,13 @@ import vue from "../assets/vue.png";
 import cv from "../assets/cv.png";
 import stock from "../assets/stock.png";
 import criver from "../assets/criver.png";
+import sophware from "../assets/sophware.png";
 
 export const projects = [
   {
     title: "MoreNews",
     category: "Development",
-    tags: ["JavaScript", "Web Development"],
+    tags: ["React","TypeScript","JavaScript", "Web Development"],
     description:
       "Reimagining Hacker News as a news aggregation platform with a focus on user experience and accessibility.",
     image: news,
@@ -20,7 +21,7 @@ export const projects = [
   {
     title: "My City Weather",
     category: "Development",
-    tags: ["JavaScript", "Weather API", ".NET"],
+    tags: ["React","TypeScript","JavaScript", "Weather API", ".NET"],
     description:
       "A weather dashboard designed to help users explore local weather conditions.",
     image: weather,
@@ -29,7 +30,7 @@ export const projects = [
   {
     title: "Wolf Digital",
     category: "Development",
-    tags: ["Web Design", "Frontend"],
+    tags: ["Web Design", "Frontend", "React", "CSS"],
     description:
       "A modern digital website focused on a polished visual identity and user experience.",
     image: wolf,
@@ -38,7 +39,7 @@ export const projects = [
   {
     title: "Vue Gift Ideas",
     category: "Development",
-    tags: ["Vue.js", "JavaScript"],
+    tags: ["Vue.js", "JavaScript", "Tailwind CSS"],
     description:
       "A gift inspiration application designed to make discovering gift ideas easier.",
     image: vue,
@@ -47,7 +48,7 @@ export const projects = [
   {
     title: "Stock Smart",
     category: "Development",
-    tags: ["JavaScript", "Data"],
+    tags: ["JavaScript", "Data", "React", "CSS"],
     description:
       "A stock-focused application exploring how financial information can be presented through a web interface.",
     image: stock,
@@ -56,7 +57,7 @@ export const projects = [
   {
     title: "SM Dev Design",
     category: "Development",
-    tags: ["React", "Web Design"],
+    tags: ["React", "Web Design", "TypeScript", "Chakra UI"],
     description:
       "My personal portfolio showcasing my work, development skills, and creative approach to digital experiences.",
     image: cv,
@@ -65,7 +66,7 @@ export const projects = [
   {
     title: "criver.com",
     category: "Development",
-    tags: ["React", "TypeScript", "Next.js", "Application Development"],
+    tags: ["React", "TypeScript", "Next.js", "App Development"],
     description:
       "Main website for Criver, a company that provides medical and healthcare solutions, showcasing their services and expertise.",
     image: criver,
@@ -79,5 +80,14 @@ export const projects = [
       "My personal portfolio website, built with React and TypeScript to showcase my work and skills.",
     image: portfolio,
     url: "https://sophiamcg-portfolio.vercel.app/",
+  },
+    {
+    title: "Chart Dashboard",
+    category: "Development",
+    tags: ["React", "TypeScript", "HTML", "JavaScript"],
+    description:
+      "Site to show capabilities of charting and dashboarding with React and TypeScript.",
+    image: sophware,
+    url: "https://sophware-security.vercel.app/",
   },
 ];

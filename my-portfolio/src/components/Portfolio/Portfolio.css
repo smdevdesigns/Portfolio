@@ -20,12 +20,18 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+p {
+  text-align: left;
+  font-size: 12px;
+}
+
 button {
   font: inherit;
 }
 .portfolio {
   overflow: hidden;
-  background: #4372DB;
+  background: #4372db;
 }
 .section-wrap,
 .topbar {
@@ -97,7 +103,7 @@ button {
   padding: 8px 12px;
   display: inline-block;
   color: white;
-  margin-top: 10px;
+  margin-top: 14px;
 }
 .hero h1 {
   font-size: clamp(48px, 6vw, 78px);
@@ -742,18 +748,19 @@ button {
 }
 .project-tags {
   display: flex;
-  gap: 6px;
+  gap: 5px;
   margin-top: 13px;
   flex-wrap: wrap;
 }
 .project-tags span {
   font:
-    9px "DM Mono",
+    8px "DM Mono",
     monospace;
   color: white;
   border: 1px solid white;
   border-radius: 999px;
   padding: 5px 8px;
+  margin-bottom: 5px;
 }
 .project-title-row {
   display: flex;
@@ -763,10 +770,10 @@ button {
   margin-top: 9px;
 }
 .project-title-row h3 {
-  font-size: 21px;
-  color: #412600;
+  color: #ffae00;
   font-weight: 600;
-  margin: 0;
+  margin-bottom: -3px;
+  margin-top: 8px;
 }
 .project-title-row svg {
   flex-shrink: 0;

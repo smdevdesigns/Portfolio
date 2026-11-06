@@ -108,12 +108,13 @@ function Projects() {
     <section className="projects-section section-wrap" id="projects">
       <div className="projects-heading">
         <h2>Selected Projects</h2>
-        <span className="eyebrow">MY WORK</span>
-        <p>A collection of applications and websites I've worked on.</p>
+        <span className="eyebrow">
+          A collection of applications and websites I've worked on.
+        </span>
       </div>
 
       <div className="project-category">
-        Development
+        Development - My Work
         <span className="project-category-count">
           {projects.length} projects
         </span>

@@ -40,7 +40,12 @@ export default function ProjectCard({ project }) {
           <ArrowUpRight />
         </span>
       </div>
-
+      <div className="project-title-row">
+        <h3>{project.title}</h3>
+        <span className="project-arrow">
+          <ArrowUpRight />
+        </span>
+      </div>
       <div className="project-content">
         <div className="project-tags">
           {project.tags.map((tag) => (
@@ -49,14 +54,6 @@ export default function ProjectCard({ project }) {
             </span>
           ))}
         </div>
-
-        <div className="project-title-row">
-          <h3>{project.title}</h3>
-          <span className="project-arrow">
-            <ArrowUpRight />
-          </span>
-        </div>
-
         <p className="project-description">{project.description}</p>
       </div>
     </a>
