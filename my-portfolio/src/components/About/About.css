@@ -310,7 +310,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 2000px) {
   .about-section {
     padding: 72px 20px;
   }
