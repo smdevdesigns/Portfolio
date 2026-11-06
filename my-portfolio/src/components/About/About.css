@@ -296,7 +296,7 @@
   background: rgba(169, 126, 255, 0.08);
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 2000px) {
   .about-skill-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
