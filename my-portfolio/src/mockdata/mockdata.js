@@ -7,6 +7,7 @@ import cv from "../assets/cv.png";
 import stock from "../assets/stock.png";
 import criver from "../assets/criver.png";
 import sophware from "../assets/sophware.png";
+import ground from "../assets/ground.png"
 
 export const projects = [
   {
@@ -89,5 +90,14 @@ export const projects = [
       "Site to show capabilities of charting and dashboarding with React and TypeScript.",
     image: sophware,
     url: "https://sophware-security.vercel.app/",
+  },
+      {
+    title: "Calbernia GM App",
+    category: "Development",
+    tags: ["Angular", "TypeScript","Tailwind", "Vite",],
+    description:
+      "Ground Maintenance Site WIP",
+    image: ground,
+    url: "https://calberniagm.vercel.app",
   },
 ];
