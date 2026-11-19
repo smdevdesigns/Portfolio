@@ -1,19 +1,29 @@
-import portfolio from "../assets/portfolio.png";
-import news from "../assets/news.png";
-import weather from "../assets/weather.png";
-import wolf from "../assets/wolf.png";
-import vue from "../assets/vue.png";
-import cv from "../assets/cv.png";
-import stock from "../assets/stock.png";
-import criver from "../assets/criver.png";
-import sophware from "../assets/sophware.png";
-import ground from "../assets/ground.png"
+import portfolio from "../assets/images/portfolio.png";
+import news from "../assets/images/news.png";
+import news2 from "../assets/images/news2.png";
+import weather from "../assets/images/weather.png";
+import wolf from "../assets/images/wolf.png";
+import vue from "../assets/images/vue.png";
+import cv from "../assets/images/cv.png";
+import stock from "../assets/images/stock.png";
+import criver from "../assets/images/criver.png";
+import sophware from "../assets/images/sophware.png";
+import ground from "../assets/images/ground.png";
 
 export const projects = [
+    {
+    title: "Wolf Digital",
+    category: "Development",
+    tags: ["Web Design", "Frontend", "React", "CSS"],
+    description:
+      "A modern digital website focused on a polished visual identity and user experience.",
+    image: wolf,
+    url: "https://wolf-digital.vercel.app/",
+  },
   {
     title: "MoreNews",
     category: "Development",
-    tags: ["React","TypeScript","JavaScript", "Web Development"],
+    tags: ["React", "TypeScript", "JavaScript", "Web Development"],
     description:
       "Reimagining Hacker News as a news aggregation platform with a focus on user experience and accessibility.",
     image: news,
@@ -22,20 +32,11 @@ export const projects = [
   {
     title: "My City Weather",
     category: "Development",
-    tags: ["React","TypeScript","JavaScript", "Weather API", ".NET"],
+    tags: ["React", "TypeScript", "JavaScript", "Weather API", ".NET"],
     description:
       "A weather dashboard designed to help users explore local weather conditions.",
     image: weather,
     url: "https://mycityweatherapp.vercel.app/",
-  },
-  {
-    title: "Wolf Digital",
-    category: "Development",
-    tags: ["Web Design", "Frontend", "React", "CSS"],
-    description:
-      "A modern digital website focused on a polished visual identity and user experience.",
-    image: wolf,
-    url: "https://wolf-digital.vercel.app/",
   },
   {
     title: "Vue Gift Ideas",
@@ -65,6 +66,15 @@ export const projects = [
     url: "https://www.smdevdesign.com/",
   },
   {
+    title: "MoreNewsRedo",
+    category: "Development",
+    tags: ["React", "TypeScript", "JavaScript", "Web Development"],
+    description:
+      "Reimagining Hacker News as a news aggregation platform with a focus on user experience and accessibility.",
+    image: news2,
+    url: "https://morenewsredo.vercel.app/",
+  },
+  {
     title: "criver.com",
     category: "Development",
     tags: ["React", "TypeScript", "Next.js", "App Development"],
@@ -82,7 +92,7 @@ export const projects = [
     image: portfolio,
     url: "https://sophiamcg-portfolio.vercel.app/",
   },
-    {
+  {
     title: "Chart Dashboard",
     category: "Development",
     tags: ["React", "TypeScript", "HTML", "JavaScript"],
@@ -91,12 +101,11 @@ export const projects = [
     image: sophware,
     url: "https://sophware-security.vercel.app/",
   },
-      {
+  {
     title: "Calbernia GM App",
     category: "Development",
-    tags: ["Angular", "TypeScript","Tailwind", "Vite",],
-    description:
-      "Ground Maintenance Site WIP",
+    tags: ["Angular", "TypeScript", "Tailwind", "Vite"],
+    description: "Ground Maintenance Site WIP",
     image: ground,
     url: "https://calberniagm.vercel.app",
   },
